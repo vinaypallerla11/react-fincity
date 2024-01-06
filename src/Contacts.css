@@ -1,0 +1,14 @@
+.container{
+    background-color: white;    
+}
+
+.app-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:-1500px;
+}
+
+.img-content{
+    padding:40px;
+}

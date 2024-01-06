@@ -1,0 +1,80 @@
+.container{
+    background-color: white;
+    height: 100vh;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 110px;
+}
+
+.description-content{
+    margin:10px;
+    padding:20px;
+    margin-top:-160px;
+}
+
+.design{
+    color:blueviolet;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.main-head{
+    color:black;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+
+.image-pic{
+    height:500px;
+    width:600px;
+    margin-top:-210px;
+    margin-left:200px;
+}
+
+.description{
+    font-size: 18px;
+    color:black;
+}
+
+.project-btn{
+    background-color: rgb(202, 91, 17);
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 50px;
+} 
+
+.linkedin-btn{
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: black;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    border: 2px solid rgb(7, 24, 48);
+    cursor: pointer;
+    outline: none;
+    margin-left:-100px;
+}
+
+.button-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:-50px;
+}
