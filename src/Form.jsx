@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Form.css'
 
 const Form = () => {
   const [name, setName] = useState("");
   const [link, setLink] = useState("");
   const [description, setDescription] = useState("")
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
 
 
   
@@ -29,6 +29,7 @@ const Form = () => {
       console.log(response)
       console.log(responseData); 
       alert("Posted data Successfully")
+      navigate('/projects')
 
     } catch (error) {
       console.error('Error submitting form:', error);

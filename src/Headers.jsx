@@ -28,6 +28,12 @@ const headers = () => {
                 Contacts
               </Link>
             </li>
+
+            <li className="nav-menu-item">
+              <Link to="/form" className="nav-link">
+                Form
+              </Link>
+            </li>
           </ul>
       </div>
     </nav>
